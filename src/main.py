@@ -168,7 +168,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    snake_head = snake.head
     if (
             # Если вышли за границы, игра заканчивается
             snake.cross_the_border() or
